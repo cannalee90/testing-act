@@ -1,8 +1,7 @@
 name: Receive Dispatch Workflow
 
 on:
-  repository_dispatch:
-    types: ['build-finished']
+  workflow_dispatch:
 
 jobs:
   process_payload:
